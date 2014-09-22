@@ -58,9 +58,9 @@ def rspls(player_choice):
 
     if(difference == 0):
         message = "It's a tie!"
-    elif(difference > 0):
+    elif(difference == 1 or difference == 2):
         message = "Player wins!"
-    elif(difference < 0):
+    elif(difference == 3 or difference == 4):
         message = "Computer wins!"
     else:
         message = "That's an error!"
