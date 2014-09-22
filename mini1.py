@@ -16,7 +16,7 @@ def name_to_number(name):
         choice = 4
     else:
         message = "That is not a valid choice.  Valid choices are {'rock', 'Spock', 'paper', 'lizard', 'scissors'}."
-        print Message
+        print message
 
     return choice
 
